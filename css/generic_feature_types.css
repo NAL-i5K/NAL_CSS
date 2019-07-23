@@ -2,7 +2,6 @@
 .plus-mRNA,
 .minus-mRNA  {
     background-color: #28db25;
-    border: 1px solid #555;
     height: 80%;
     top: 10%;
 }
@@ -11,7 +10,6 @@
 .plus-cds,
 .minus-cds  {
     background-color: #28db25;
-    border: 1px solid #555;
     height: 80%;
     top: 10%;
 }
