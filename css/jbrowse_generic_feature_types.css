@@ -1,0 +1,77 @@
+.jbrowse .mRNA, 
+.jbrowse .plus-mRNA,
+.jbrowse .minus-mRNA  {
+    background-color: #28db25;
+    height: 80%;
+    top: 10%;
+}
+
+.jbrowse .cds, 
+.jbrowse .plus-cds,
+.jbrowse .minus-cds  {
+    background-color: #28db25;
+    height: 80%;
+    top: 10%;
+}
+
+.jbrowse .utr, 
+.jbrowse .plus-utr,
+.jbrowse .five_prime_utr, 
+.jbrowse .plus-five_prime_utr, 
+.jbrowse .minus-five_prime_utr,
+.jbrowse .three_prime_utr, 
+.jbrowse .plus-three_prime_utr, 
+.jbrowse .minus-three_prime_utr,
+.jbrowse .minus-utr {
+    height: 60%;
+    top: 20%;
+    background-color: #d7f7c0;
+}
+
+.jbrowse .lnc_RNA, 
+.jbrowse .plus-lnc_RNA,
+.jbrowse .minus-lnc_RNA {
+    height: 60%;
+    top: 20%;
+    background-color: #262dff;
+}
+
+.jbrowse .snoRNA, 
+.jbrowse .plus-snoRNA,
+.jbrowse .minus-snoRNA {
+    height: 60%;
+    top: 20%;
+    background-color: #7cedff;
+}
+
+.jbrowse .transcript, 
+.jbrowse .plus-transcript,
+.jbrowse .minus-transcript {
+    height: 60%;
+    top: 20%;
+    background-color: #c589c6;
+}
+
+.jbrowse .rRNA, 
+.jbrowse .plus-rRNA,
+.jbrowse .minus-rRNA {
+    height: 60%;
+    top: 20%;
+    background-color: #fff200;
+}
+
+.jbrowse .snRNA, 
+.jbrowse .plus-snRNA,
+.jbrowse .minus-snRNA {
+    height: 60%;
+    top: 20%;
+    background-color: #80a823;
+}
+
+.jbrowse .tRNA, 
+.jbrowse .plus-tRNA,
+.jbrowse .minus-tRNA {
+    height: 60%;
+    top: 20%;
+    background-color: #ef7902;
+}
