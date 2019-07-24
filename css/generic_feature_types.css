@@ -1,44 +1,37 @@
-.mRNA, 
-.plus-mRNA,
-.minus-mRNA  {
+.mRNA .cds, 
+.mRNA .plus-cds,
+.mRNA .minus-cds  {
     background-color: #28db25;
     height: 80%;
     top: 10%;
 }
 
-.cds, 
-.plus-cds,
-.minus-cds  {
-    background-color: #28db25;
-    height: 80%;
-    top: 10%;
-}
-
-.utr, 
-.plus-utr,
-.five_prime_utr, 
-.plus-five_prime_utr, 
-.minus-five_prime_utr,
-.three_prime_utr, 
-.plus-three_prime_utr, 
-.minus-three_prime_utr,
-.minus-utr {
+.mRNA .utr, 
+.mRNA .plus-utr,
+.mRNA .five_prime_utr, 
+.mRNA .plus-five_prime_utr, 
+.mRNA .minus-five_prime_utr,
+.mRNA .three_prime_utr, 
+.mRNA .plus-three_prime_utr, 
+.mRNA .minus-three_prime_utr,
+.mRNA .neat-UTR,
+.mRNA .minus-utr {
     height: 60%;
     top: 20%;
     background-color: #d7f7c0;
 }
 
-.lnc_RNA, 
-.plus-lnc_RNA,
-.minus-lnc_RNA {
+.lnc_RNA .neat-UTR, 
+.plus-lnc_RNA .neat-UTR,
+.minus-lnc_RNA .neat-UTR {
     height: 60%;
     top: 20%;
     background-color: #262dff;
 }
 
-.snoRNA, 
-.plus-snoRNA,
-.minus-snoRNA {
+.snoRNA .neat-UTR, 
+.plus-snoRNA .neat-UTR,
+.minus-snoRNA .neat-UTR {
     height: 60%;
     top: 20%;
     background-color: #7cedff;
@@ -52,25 +45,25 @@
     background-color: #c589c6;
 }
 
-.rRNA, 
-.plus-rRNA,
-.minus-rRNA {
+.rRNA .neat-UTR, 
+.plus-rRNA .neat-UTR,
+.minus-rRNA .neat-UTR {
     height: 60%;
     top: 20%;
     background-color: #fff200;
 }
 
-.snRNA, 
-.plus-snRNA,
-.minus-snRNA {
+.snRNA .neat-UTR, 
+.plus-snRNA .neat-UTR,
+.minus-snRNA .neat-UTR {
     height: 60%;
     top: 20%;
     background-color: #80a823;
 }
 
-.tRNA, 
-.plus-tRNA,
-.minus-tRNA {
+.tRNA .neat-UTR, 
+.plus-tRNA .neat-UTR,
+.minus-tRNA .neat-UTR {
     height: 60%;
     top: 20%;
     background-color: #ef7902;
