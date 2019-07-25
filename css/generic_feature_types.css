@@ -1,74 +1,92 @@
-.mRNA .CDS, 
-.mRNA .plus-CDS,
-.mRNA .minus-CDS 
-.mRNA .cds, 
-.mRNA .plus-cds,
-.mRNA .minus-cds  {
-    background-color: #28db25;
-    height: 80%;
-    top: 10%;
-}
-
-.mRNA .utr, 
-.mRNA .plus-utr,
-.mRNA .five_prime_utr, 
-.mRNA .plus-five_prime_utr, 
-.mRNA .minus-five_prime_utr,
-.mRNA .three_prime_utr, 
-.mRNA .plus-three_prime_utr, 
-.mRNA .minus-three_prime_utr,
-.mRNA .neat-UTR,
-.mRNA .minus-utr {
-    height: 60%;
-    top: 20%;
-    background-color: #d7f7c0;
-}
-
-.lnc_RNA .neat-UTR, 
-.plus-lnc_RNA .neat-UTR,
-.minus-lnc_RNA .neat-UTR {
-    height: 60%;
-    top: 20%;
-    background-color: #262dff;
-}
-
-.snoRNA .neat-UTR, 
+/* untested */
 .plus-snoRNA .neat-UTR,
-.minus-snoRNA .neat-UTR {
-    height: 60%;
-    top: 20%;
-    background-color: #7cedff;
+.minus-snoRNA .neat-UTR,
+.snoRNA .neat-UTR{
+   height: 60%;
+   top: 20%;
+   background-color: #7cedff !important;
 }
 
-.transcript, 
-.plus-transcript,
-.minus-transcript {
-    height: 60%;
-    top: 20%;
-    background-color: #c589c6;
-}
-
-.rRNA .neat-UTR, 
+/* untested */
 .plus-rRNA .neat-UTR,
-.minus-rRNA .neat-UTR {
-    height: 60%;
-    top: 20%;
-    background-color: #fff200;
+.minus-rRNA .neat-UTR,
+.rRNA .neat-UTR{
+   height: 60%;
+   top: 20%;
+   background-color: #fff200 !important;
 }
 
-.snRNA .neat-UTR, 
+/* untested */
 .plus-snRNA .neat-UTR,
-.minus-snRNA .neat-UTR {
-    height: 60%;
-    top: 20%;
-    background-color: #80a823;
+.minus-snRNA .neat-UTR,
+.snRNA .neat-UTR{
+   height: 60%;
+   top: 20%;
+   background-color: #80a823 !important;
 }
 
-.tRNA .neat-UTR, 
+/*this just does not display */
+.minus-mRNA .neat-UTR,
+.plus-mRNA .neat-UTR,
+.mRNA .neat-UTR,{
+        height: 12px;
+        margin-top: 2px;
+        background-color: #d7f7c0 !important;
+}
+
+/*this just does not display */
+.plus-mRNA .CDS,
+.minus-mRNA .CDS,
+.mRNA .CDS{
+        background-color: #28db25 !important;
+        height: 12px;
+        margin-top: 2px;
+}
+ 
+
+.minus-tRNA .neat-UTR,
 .plus-tRNA .neat-UTR,
-.minus-tRNA .neat-UTR {
-    height: 60%;
-    top: 20%;
-    background-color: #ef7902;
+.tRNA .neat-UTR{
+        height: 12px;
+        margin-top: 2px;
+        background-color: #ef7902 !important;
 }
 
+/* this one is not working once zoomed in */
+ 
+.minus-primary_transcript neat-UTR,
+.plus-primary_transcript neat-UTR,
+.primary_transcript neat-UTR{
+        height: 12px;
+        margin-top: 2px;
+        background-color: #59c28f !important;
+}
+
+.minus-miRNA .neat-UTR,
+.plus-miRNA .neat-UTR,
+.miRNA .neat-UTR{
+        height: 12px;
+        margin-top: 2px;
+        background-color: #59c28f !important;
+}
+
+/* this one is not working for the fill */
+
+.minus-lnc_RNA .neat-UTR,
+.plus-lnc_RNA .neat-UTR,
+.lnc_RNA .neat-UTR{
+        height: 12px;
+        margin-top: 2px;
+        color: orange;
+        color: rgba(255, 100, 0) !important;
+}
+
+
+/* the transcript features show both neat and not-neat intron lines */
+.minus-transcript .neat-UTR,
+.plus-transcript .neat-UTR,
+.transcript .neat-UTR{
+        height: 12px;
+        margin-top: 2px;
+        background-color: #c589c6 !important;
+}
