@@ -110,6 +110,13 @@
     background-color: #FFAA11;
 }
 
+.jbrowse .primary_gene_set-utr, 
+.jbrowse .plus-primary_gene_set-utr, 
+.jbrowse .minus-primary_gene_set-utr {
+    height: 60%;
+    top: 20%;
+    background-color: #ffcb6e;
+}
 
 .jbrowse .jamp_CDS,
 .jbrowse .plus-jamp_CDS,
