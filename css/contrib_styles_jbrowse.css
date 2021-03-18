@@ -108,14 +108,14 @@
     height: 12px;
     margin-top: 0px;
     background-color: #FFAA11;
+    border: 0px solid #555 !important;
 }
 
-.jbrowse .primary_gene_set-utr, 
-.jbrowse .plus-primary_gene_set-utr, 
-.jbrowse .minus-primary_gene_set-utr {
-    height: 60%;
-    top: 20%;
-    background-color: #ffcb6e;
+.jbrowse .gnomon_UTR,
+.jbrowse .plus-gnomon_UTR,
+.jbrowse .minus-gnomon_UTR {
+    background-color: #ccc !important;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .jamp_CDS,
@@ -160,6 +160,14 @@
     margin-top: 0px;
 }
 
+.jbrowse .ogs-utr, 
+.jbrowse .plus-ogs-utr, 
+.jbrowse .minus-ogs-cds  {
+    background-color: #cccccc;
+    height: 12px;
+    margin-top: 0px;
+}
+
 .jbrowse .junction-cds, 
 .jbrowse .plus-junction-cds, 
 .jbrowse .minus-junction-cds  {
@@ -174,6 +182,7 @@
     background-color: #21D61F;
     height: 12px;
     margin-top: 0px;
+}
 }
 
 .jbrowse .deprecated_gene_set-cds, 
@@ -412,7 +421,21 @@ height: 12px;
 .jbrowse .three_prime_utr, 
 .jbrowse .plus-three_prime_utr, 
 .jbrowse .minus-three_prime_utr,
+.jbrowse .plus-primary_gene_set-utr,
+.jbrowse .minus-primary_gene_set-utr,
+.jbrowse .primary_gene_set-utr,
+.jbrowse .utr,
+.jbrowse .plus-utr,
+.jbrowse .minus-utr,
 .jbrowse .minus-ogs-utr {
 height: 12px;
-background-color: #777777;
+background-color: #cccccc;
+}
+
+
+.jbrowse .pseudogene, 
+.jbrowse .plus-pseudogene,
+.jbrowse .minus-pseudogene {
+height: 12px;
+background-color: #cd20f0;
 }
