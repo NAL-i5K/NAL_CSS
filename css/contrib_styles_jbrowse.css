@@ -6,6 +6,7 @@
 .jbrowse .minus-red-100pct  {
     background-color: #FF0000;
     border: 1px solid #FF0000;
+    border: 0px solid #555 !important;
     height: 100%;
     top: 0%;
 }
@@ -16,6 +17,7 @@
     margin-top: 0%;
     background-color: #FFD700;
     height: 80%;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .goldenrod-60pct, 
@@ -24,6 +26,7 @@
     height: 60%;
     top: 20%;
     background-color: #DAA520;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .blast-match_part,
@@ -32,6 +35,7 @@
     height: 6px;
     margin-top: 0px;
     background-color: blue;
+    border: 0px solid #555 !important;
 }
 
 
@@ -41,6 +45,7 @@
     width: 100%;
     height: 20%;
     top: 40%;
+    border: 0px solid #555 !important;
 }
 
 
@@ -130,6 +135,7 @@
     height: 12px;
     margin-top: 0px;
     background-color: #993399;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .blastn,
@@ -138,6 +144,7 @@
     height: 60%;
     top: 20%;
     background-color: #996633;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .est2genome,
@@ -146,6 +153,7 @@
     height: 60%;
     top: 20%;
     background-color: #FFC966;
+    border: 0px solid #555 !important;
 }
 
 
@@ -155,6 +163,7 @@
     height: 60%;
     top: 20%;
     background-color: #9D336B;
+    border: 0px solid #555 !important;
 }
 
 
@@ -164,6 +173,7 @@
     background-color: #FFD700;
     height: 12px;
     margin-top: 0px;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .ogs-utr, 
@@ -172,6 +182,7 @@
     background-color: #cccccc;
     height: 12px;
     margin-top: 0px;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .junction-cds, 
@@ -180,6 +191,7 @@
     background-color: #A921AD;
     height: 12px;
     margin-top: 0px;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .primary_gene_set-cds, 
@@ -188,8 +200,9 @@
     background-color: #21D61F;
     height: 12px;
     margin-top: 0px;
+    border: 0px solid #555 !important;
 }
-}
+
 
 .jbrowse .deprecated_gene_set-cds, 
 .jbrowse .plus-deprecated_gene_set-cds, 
@@ -197,6 +210,7 @@
     height: 12px;
     margin-top: 0px;
     background-color: #927447;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .transcriptome-cds,
@@ -205,6 +219,7 @@
     background-color: #00BFFF;
     height: 12px;
     margin-top: 0px;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .transcriptome-match_part,
@@ -213,6 +228,7 @@
     background-color: #00BFFF;
     height: 8px;
     margin-top: 0px;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .blastx, 
@@ -220,6 +236,7 @@
 .jbrowse .minus-blastx {
     height: 12px;
     background-color: #A0522D;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .protein2genome,
@@ -227,12 +244,14 @@
 .jbrowse .minus-protein2genome {
     height: 12px;
     background-color: #FFA500;
+    border: 0px solid #555 !important;
 }
 .jbrowse .repeat, 
 .jbrowse .plus-repeat, 
 .jbrowse .minus-repeat {
     height: 12px;
     background-color: #FF0000;
+    border: 0px solid #555 !important;
 }
 
 
@@ -247,6 +266,7 @@
 .jbrowse .minus-est {
     height: 12px;
     background-color: #00bfff;
+    border: 0px solid #555 !important;
 }
 
 
@@ -255,6 +275,7 @@
 .jbrowse .minus-cegma {
     height: 12px;
     background-color: #99CC00
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .alt_gene_set-cds,
@@ -262,161 +283,182 @@
 .jbrowse .minus-alt_gene_set-cds {
 background-color: #DA70D6 ;
 height: 12px;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .alt_gene_set-utr,
 .jbrowse .plus-alt_gene_set-utr,
 .jbrowse .minus-alt_gene_set-utr {
-height: 12px;
-background-color: #8B008B;
+    height: 12px;
+    background-color: #8B008B;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .snap,
 .jbrowse .plus-snap,
 .jbrowse .minus-snap {
-height: 12px;
-background-color: #99FFCC;
+    height: 12px;
+    background-color: #99FFCC;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .snap_UTR,
 .jbrowse .plus-snap_UTR,
 .jbrowse .minus-snap_UTR {
-height: 12px;
-background-color: #00CC66;
+    height: 12px;
+    background-color: #00CC66;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .snap_CDS,
 .jbrowse .plus-snap_CDS,
 .jbrowse .minus-snap_CDS {
-height: 12px;
-background-color: #99FFCC;
+    height: 12px;
+    background-color: #99FFCC;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .augustus,
-.jbrowse .plus-augustus,
+jbrowse .plus-augustus,
 .jbrowse .minus-augustus {
-height: 12px;
-background-color: #FFCCFF;
+    height: 12px;
+    background-color: #FFCCFF;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .augustus_UTR,
 .jbrowse .plus-augustus_UTR,
 .jbrowse .minus-augustus_UTR {
-height: 12px;
-background-color: #FF00FF;
+    height: 12px;
+    background-color: #FF00FF;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .augustus_CDS,
 .jbrowse .plus-augustus_CDS,
 .jbrowse .minus-augustus_CDS {
-height: 12px;
-background-color: #FFCCFF;
-}
+    height: 12px;
+    background-color: #FFCCFF;
+    border: 0px solid #555 !important;}
 
 .jbrowse .fgenesh,
 .jbrowse .plus-fgenesh,
 .jbrowse .minus-fgenesh {
-height: 12px;
-background-color: #990099;
-}
+    height: 12px;
+    background-color: #990099;
+    border: 0px solid #555 !important;}
 
 .jbrowse .fgenesh_UTR,
 .jbrowse .plus-fgenesh_UTR,
 .jbrowse .minus-fgenesh_UTR {
-height: 12px;
-background-color: #D699D6;
+    height: 12px;
+    background-color: #D699D6;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .fgenesh_CDS,
 .jbrowse .plus-fgenesh_CDS,
 .jbrowse .minus-fgenesh_CDS {
-height: 12px;
-background-color: #990099;
+    border: 0px solid #555 !important;
+    height: 12px;
+    background-color: #990099;
 }
 
 .jbrowse .genemark,
 .jbrowse .plus-genemark,
 .jbrowse .minus-genemark {
-height: 12px;
-background-color: #679B68;
+    border: 0px solid #555 !important;
+    height: 12px;
+    background-color: #679B68;
 }
 
 .jbrowse .genemark_UTR,
 .jbrowse .plus-genemark_UTR,
 .jbrowse .minus-genemark_UTR {
-height: 12px;
-background-color: #527C53;
+    height: 12px;
+    background-color: #527C53;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .genemark_CDS,
 .jbrowse .plus-genemark_CDS,
 .jbrowse .minus-genemark_CDS {
-height: 12px;
-background-color: #679B68;
+    height: 12px;
+    background-color: #679B68;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .gnomon_UTR,
 .jbrowse .plus-gnomon_UTR,
 .jbrowse .minus-gnomon_UTR {
-height: 12px;
-background-color: #DB4E00;
+    height: 12px;
+    background-color: #DB4E00;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .gnomon_CDS,
 .jbrowse .plus-gnomon_CDS,
 .jbrowse .minus-gnomon_CDS {
-height: 12px;
-background-color: #FFAA11;
+    height: 12px;
+    background-color: #FFAA11;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .jamp,
 .jbrowse .plus-jamp,
 .jbrowse .minus-jamp {
-height: 12px;
-background-color: #993399;
+    height: 12px;
+    background-color: #993399;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .jamp_UTR,
 .jbrowse .plus-jamp_UTR,
 .jbrowse .minus-jamp_UTR {
-height: 12px;
-background-color: #CCCCFF;
+    height: 12px;
+    background-color: #CCCCFF;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .jamp_CDS,
 .jbrowse .plus-jamp_CDS,
 .jbrowse .minus-jamp_CDS {
-height: 12px;
-background-color: #993399;
+    height: 12px;
+    background-color: #993399;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .blastn,
 .jbrowse .plus-blastn,
 .jbrowse .minus-blastn {
-height: 12px;
-background-color: #996633;
+    height: 12px;
+    background-color: #996633;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .est2genome,
 .jbrowse .plus-est2genome,
 .jbrowse .minus-est2genome {
-height: 12px;
-background-color: #FFC966;
+    height: 12px;
+    background-color: #FFC966;
+    border: 0px solid #555 !important;
 }
 
 
 .jbrowse .protein_domains,
 .jbrowse .plus-protein_domains,
 .jbrowse .minus-protein_domains {
-height: 12px;
-background-color: #9D336B;
+    height: 12px;
+    background-color: #9D336B;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .generic_NCBI-cds, 
 .jbrowse .plus-ogs-cds, 
 .jbrowse .jbrowse .minus-ogs-cds {
-background-color: #444444;
-height: 12px;
+    background-color: #444444;
+    height: 12px;
+    border: 0px solid #555 !important;
 }
 
 .jbrowse .generic_NCBI-utr, 
@@ -434,14 +476,46 @@ height: 12px;
 .jbrowse .plus-utr,
 .jbrowse .minus-utr,
 .jbrowse .minus-ogs-utr {
-height: 12px;
-background-color: #cccccc;
+    height: 12px;
+    background-color: #cccccc;
+    border: 0px solid #555 !important;
 }
 
 
 .jbrowse .pseudogene, 
 .jbrowse .plus-pseudogene,
 .jbrowse .minus-pseudogene {
-height: 12px;
-background-color: #cd20f0;
+    height: 12px;
+    background-color: #cd20f0;
+    border: 0px solid #555 !important;
+} 
+
+.jbrowse .expressed_sequence_match
+ {
+    height: 6px;
+    margin-top: 0px;
+    background-color: steelblue;
+    border: 0px solid #555 !important;
+}
+
+.jbrowse .protein_match {
+    height: 6px;
+    margin-top: 0px;
+    background-color: dodgerblue;
+    border: 0px solid #555 !important;
+}
+
+
+.jbrowse .translated_nucleotide_match {
+    height: 6px;
+    margin-top: 0px;
+    background-color: darkblue;
+    border: 0px solid #555 !important;
+}
+
+.jbrowse .match {
+    height: 6px;
+    margin-top: 0px;
+    background-color: powderblue;
+    border: 0px solid #555 !important;
 }
