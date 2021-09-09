@@ -274,15 +274,15 @@
 .jbrowse .plus-cegma,
 .jbrowse .minus-cegma {
     height: 12px;
-    background-color: #99CC00
+    background-color: #99CC00;
     border: 1px solid #555 !important;
 }
 
 .jbrowse .alt_gene_set-cds,
 .jbrowse .plus-alt_gene_set-cds,
 .jbrowse .minus-alt_gene_set-cds {
-background-color: #DA70D6 ;
-height: 12px;
+    background-color: #DA70D6 ;
+    height: 12px;
     border: 1px solid #555 !important;
 }
 
