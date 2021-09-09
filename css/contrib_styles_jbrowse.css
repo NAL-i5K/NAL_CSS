@@ -319,7 +319,7 @@ height: 12px;
 }
 
 .jbrowse .augustus,
-jbrowse .plus-augustus,
+.jbrowse .plus-augustus,
 .jbrowse .minus-augustus {
     height: 12px;
     background-color: #FFCCFF;
@@ -455,7 +455,7 @@ jbrowse .plus-augustus,
 
 .jbrowse .generic_NCBI-cds, 
 .jbrowse .plus-ogs-cds, 
-.jbrowse .jbrowse .minus-ogs-cds {
+.jbrowse .minus-ogs-cds {
     background-color: #444444;
     height: 12px;
     border: 1px solid #555 !important;
